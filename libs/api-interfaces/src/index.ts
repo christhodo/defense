@@ -1,1 +1,1 @@
-export * from './lib/api-interfaces';
+export { Message, User, Defense } from './lib/api-interfaces';

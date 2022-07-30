@@ -1,0 +1,19 @@
+{
+  "defenses": [
+    {
+      "id": "1",
+      "title": "Remote Defense 01",
+      "description": "Pending..."
+    },
+    {
+      "id": "2",
+      "title": "Remote Defense 02",
+      "description": "Pending..."
+    },
+    {
+      "id": "3",
+      "title": "Remote Defense 03",
+      "description": "Pending..."
+    }
+  ]
+}

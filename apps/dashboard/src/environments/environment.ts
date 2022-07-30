@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+  apiEndpoint: 'https://thirty-by-thirty-app.herokuapp.com/',
 };
 
 /*

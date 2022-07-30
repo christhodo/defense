@@ -1,0 +1,18 @@
+<div class="component-container">
+  <div class="list-component">
+    <defense-angular-defenses-list
+      [defenses]="allDefenses$ | async"
+      (selected)="selectDefense($event)"
+      (deleted)="deleteDefense($event)"
+    >
+    </defense-angular-defenses-list>
+  </div>
+  <div class="details-component">
+    <defense-angular-defense-details
+      [defense]="selectedDefense$ | async"
+      (saved)="saveDefense($event)"
+      (cancelled)="resetForm()"
+    >
+    </defense-angular-defense-details>
+  </div>
+</div>
